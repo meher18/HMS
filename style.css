@@ -1,0 +1,270 @@
+.navbar{
+  height: 25vh;
+background-color: black;
+
+}
+body{
+    display:border-box;
+    padding:0px;
+  
+  
+
+    background-repeat: no-repeat;
+    marign:0px;
+}
+.first_container{
+    height:80vh;
+    background-image: url(dylan-gillis-KdeqA3aTnBY-unsplash.jpg);
+        background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    animation: change;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+   
+}
+ 
+    .first_container div{
+
+    background-color: black;
+    color:white;
+    width:150px;
+    height: 150px;
+    border-radius: 100px;
+    padding:40px;
+    display: flex;
+    align-items: center;
+    }
+@keyframes change{
+    25%{
+     background-image: url(helloquence-OQMZwNd3ThU-unsplash.jpg));
+    }
+    50%{
+        background-image: url(will-walker-7ZxdrF6MbJU-unsplash.jpg);
+    }
+    75%{
+          background-image: url(mimi-thian-vdXMSiX-n6M-unsplash.jpg);
+    }
+    100%{
+       background-image: url(dylan-gillis-KdeqA3aTnBY-unsplash.jpg); 
+    }
+}
+
+.navbar{
+    
+display:flex;
+flex-direction:column;
+justify-content: space-around;
+
+    
+
+}
+.title{
+    font-family: sans-serif;
+    color :white;
+   
+}
+.title ,ul{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+   
+    
+    
+}
+.links ul li a{
+    text-decoration: none;
+    list-style: none;    
+    font-family: sans-serif;
+    color:white;
+font-weight: bold;
+     padding:20px;
+    
+}
+.links ul li a:hover{
+    background-color: white;
+    color:black;
+   
+}
+.second_container{
+    height: 70vh;
+
+    background-color: rgba(0,55,55,0.5);
+ 
+    display: flex;
+    align-items: center;
+   
+   
+    justify-content: space-around
+}
+.second_container div{
+      text-align: center;
+    padding:40px;
+     font-family: monospace;
+     font-weight: 400;
+    
+     
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height:100px;
+    width:600px;
+    flex-direction: column;
+    background-color: white;
+    border-radius:10px;
+    box-shadow: 10px 10px 10px black;
+    animation: change_shadow;
+    animation-duration: 2s;
+    
+    animation-iteration-count: infinite;
+        
+    
+}
+@keyframes change_shadow{
+    
+     0%{box-shadow: 10px 10px 10px black;
+       
+     }
+     50%{
+         box-shadow: -50px 50px 50px black;
+          padding:50px;
+     }
+     100%{
+         box-shadow: 10px 10px 10px black;
+     }
+    
+}
+.second_container div h1{
+    line-height: 3rem;
+}
+.second_container div p{
+ 
+    font-family: cursive;
+}
+.third_container{
+    height:60vh;
+    background-image: url(main-qimg-4a62afcad0aa9ff234fabce85e86ff3c.jfif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.fourth_container{
+   height:70vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+ 
+padding:40px;
+border-bottom-color: black;
+border-bottom:  10px solid;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+   padding-bottom: 20px;
+ 
+  }
+   .admin{
+       height:500px;
+     text-align: center;
+      
+     text-decoration: none;
+       display: flex;
+       width: 500px;
+       background-image: url(2539.jpg);
+       background-position: center;
+        border-radius: 30px;
+        background-size: cover;
+        box-shadow: -5px 5px 10px black;
+         font-family: sans-serif;
+         justify-content: space-around;
+         align-items: center;
+         
+        
+        
+   }
+   .admin_image{
+     display: flex;
+     align-items: center;
+     color:white;
+     height:200px;
+     width:200px;
+     background-color: rgba(0,0,0,0.4);
+    border-radius: 20px;
+     
+     
+   }
+   .HR{
+          height:500px;
+     text-align: center;
+      text-decoration: none;
+       display: flex;
+       width: 500px;
+       background-image: url(TpoLogin.jpg);
+       background-position: center;
+        border-radius: 30px;
+        background-size: cover;
+        box-shadow: -5px 5px 10px black;
+         font-family: sans-serif;
+          justify-content: space-around;
+         align-items: center;
+        
+       
+   }
+   .hr_image{
+        display: flex;
+     align-items: center;
+     color:white;
+     height:200px;
+     width:200px;
+         background-color: rgba(0,0,0,0.4);
+    border-radius: 20px;
+     
+    
+   }
+   .admin:hover{
+      box-shadow: -20px 20px 20px black;
+     
+      
+      opacity:0.9;
+   }
+    .HR:hover{
+      box-shadow: -20px 20px 20px black;
+    
+       opacity:0.9;
+   }
+   
+   .sixth_container{
+       height:40vh;
+       
+   }
+   .footer{
+       height:10vh;
+       background-color: black;
+       color:grey;
+       
+   }
+    .copyright{
+       height:10vh;
+       position: relative;
+      
+    
+    
+     
+       color:red;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+   }
+  
+   
