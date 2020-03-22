@@ -4,9 +4,11 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Home page</title>
         <link href="style.css" rel="stylesheet">
-        <script src="js/jquery.js"></script>
+        <script src="js/jquery.js" type="text/javascript"></script>
 
 
         <script>
@@ -64,7 +66,7 @@
             {
                 i = 0;
                 document.getElementById("text1").innerHTML = "";
-                setTimeout();
+           
             }
             $("#text1").css("font-family", "san-serif");
             document.getElementById("text1").innerHTML += text2.charAt(i);
@@ -78,7 +80,7 @@
             {
                 j = 0;
                 document.getElementById("hello_there").innerHTML = "";
-                setTimeout();
+                
             }
             $("#hello_there").css("font-family", "san-serif");
             document.getElementById("hello_there").innerHTML += text.charAt(j);
@@ -179,19 +181,19 @@
         </div>
         <div class="second_container">
 
-            <div >
+            <div class="second_div_1" >
                 <h1>HI AND WELCOME TO HR MANAGEMENT SYSTEM</h1>
                 <P>SCROLL BELOW TO SEE WHAT THIS SYSTEM CONTAINS  : ) </P>
             </div>
-            <div >
-                <pre style="font-weight:bold;font-size:20px;">
+            <div class="second_div_2" >
+                <p style="font-weight:bold;font-size:20px;">
 IT Involves ...
 Recruiting the Right People for the Right Job
 Maintaining a Safe Environment
 Employer-Employee Relations
 Compensation and Benefits
 Labor Law Compliance
-Training and Development</pre>
+Training and Development</p>
 
             </div>
         </div>
