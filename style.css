@@ -1,7 +1,7 @@
 .navbar{
 
-    background-image: linear-gradient(75deg ,aqua,black);
-    background-size: contain;
+   background-image: url(close-up-of-human-hand-327540.jpg);
+    background-size: cover;
     background-position: top;
 
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@ body{
     height:80vh;
     /*    background-image: url(dylan-gillis-KdeqA3aTnBY-unsplash.jpg);*/
     background-attachment: fixed;
-    background-image: linear-gradient(-150deg,black,aqua,black,aqua,black,aqua);
+    background-image: url(hunters-race-MYbhN8KaaEc-unsplash.jpg);
 
     background-position: center;
     background-size: cover;
@@ -45,6 +45,7 @@ body{
 
 
 }
+
 
 .first_container div{
 
@@ -108,6 +109,7 @@ body{
     flex-direction: row;
 
     color: black;
+
 
 
 
@@ -223,10 +225,11 @@ ul li a:hover{
 }
 .third_container{
     height:40vh;
-    background-image: radial-gradient(circle,black,aqua,black,aqua,black,aqua);
+    background-image: url(helloquence-OQMZwNd3ThU-unsplash.jpg);
+/*    background-image: radial-gradient(circle,black,aqua,black,aqua,black,aqua);*/
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: inherit;
     background-repeat: no-repeat;
 
 
@@ -401,3 +404,231 @@ flex-wrap: wrap;
     align-items: center;
 }
 
+@media (max-device-width:768px)
+{
+    .fourth_container{
+    height:110vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    padding:40px;
+    background-color: aqua ;
+    border-bottom-color: black;
+    border-bottom:  10px solid;
+   
+ 
+
+ 
+}
+ .second_container .second_div_1{
+   
+    
+    font-family: monospace;
+    font-weight: 100;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height:130px;
+    width:350px;
+    flex-direction: column;
+    background-color: black;
+    border-radius:10px;
+font-size: 10px;
+
+    animation-duration: 2s;
+
+
+
+}
+ .second_container .second_div_2{
+   
+    
+    font-family: monospace;
+    font-weight: 50;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height:130px;
+    width:350px;
+    flex-direction: column;
+    background-color: black;
+    border-radius:10px;
+font-size: 10px;
+
+    animation-duration: 2s;
+
+
+
+}
+.second_container{
+    height: 100vh;
+
+  
+    background-image: linear-gradient(10deg,black,aqua,black,aqua);
+
+    display: flex;
+    align-items: center;
+    color: aqua;
+    flex-direction: column;
+
+    justify-content: space-around
+}
+
+
+
+
+.title{
+
+    font-family: sans-serif;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+
+       text-align: center;
+    
+    flex-direction: row;
+
+    color:cyan ;
+
+background-color: rgba(0,0,0,0.4);
+
+
+
+
+}
+.title h1{
+    font-size: 100px;
+margin-left: 40px;
+
+}
+.abc {
+    font-size: 50px;
+    /*    display: flex;
+        align-content: center;
+      font-weight: 900;
+      justify-content: space-around;
+      align-content: center;*/
+
+
+
+
+}
+.navbar{
+
+   background-image: url(close-up-of-human-hand-327540.jpg);
+    background-size: cover;
+    background-position: top;
+
+    background-repeat: no-repeat;
+}
+
+.navbar-container{
+    height: 80vh;
+
+
+
+
+
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+}
+.first_container{
+    height:100vh;
+    /*    background-image: url(dylan-gillis-KdeqA3aTnBY-unsplash.jpg);*/
+    background-attachment: fixed;
+    background-image: url(hunters-race-MYbhN8KaaEc-unsplash.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    /*    animation: change;*/
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+
+}
+.first_container div{
+
+    background-image: radial-gradient(circle,black,aqua,black,aqua,black,aqua);
+    color:white;
+    width:50vh;
+    font-weight: 900;
+    height: 20vh;
+    border-radius: 100px;
+    padding:40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+
+}
+.HR{
+    
+    height:300px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    width: 500px;
+    background-image: url(TpoLogin.jpg);
+    background-position: center;
+    border-radius: 30px;
+    background-size: cover;
+    box-shadow: 10px 10px 40px 10px aqua;
+
+    font-family: sans-serif;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.admin{
+    
+    height:300px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    width: 500px;
+    background-image: url(TpoLogin.jpg);
+    background-position: center;
+    border-radius: 30px;
+    background-size: cover;
+    box-shadow: 10px 10px 40px 10px aqua;
+
+    font-family: sans-serif;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.sixth_container{
+    height:40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: roboto,sans-serif;
+    background-color: black;
+    color: aqua ;
+    margin:80px;
+    padding:20px;
+    overflow: auto; 
+    line-height: 2rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px 5px black ;
+    font-style: oblique;
+    font-size:10px;
+
+}
+
+}
